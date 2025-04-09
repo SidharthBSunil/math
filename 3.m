@@ -1,4 +1,4 @@
-````
+
 N = 2000;
 M = 16;
 Fs = 1e6;
@@ -32,4 +32,4 @@ demodulated_data = qamdemod(received_symbols, M, 'UnitAveragePower', true);
 errors = sum(demodulated_data ~= data);
 BER = errors/N;
 disp(['Bit Error Rate (BER): ', num2str(BER)]);
-````
+
