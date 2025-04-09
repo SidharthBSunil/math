@@ -1,4 +1,4 @@
-````
+
 clear;
 close all;
 
@@ -29,4 +29,4 @@ legend('Simulation', 'Theoretical');
 xlabel('EbNo(dB)');
 ylabel('BER');
 grid on
-`````
+
