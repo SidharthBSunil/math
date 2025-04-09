@@ -1,4 +1,4 @@
-```
+
 N = 1000;
 symbol_rate = 1e6;
 oversampling_rate = 8;
@@ -46,4 +46,3 @@ original_symbols = symbols;
 errors = sum(original_symbols ~= sign(real(estimated_symbols)));
 BER = errors / length(symbols);
 fprintf('Bit Error Rate: %.4e\n', BER);
-````
