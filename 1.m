@@ -1,4 +1,4 @@
-````
+
 clear;
 close all;
 
@@ -51,4 +51,4 @@ title('Noise')
 r = snr(index, noise);
 disp(['SNR :', num2str(r)])
 
-````
+
